@@ -5,8 +5,12 @@ $arr = [1, 2, 3, 7, 31, 4, 1, 8, 6];
 $arrLength = count($arr);
 echo "Длина массива: " . $arrLength . "<br>";
 
+
+
 $sum = $arr[3] + $arr[4] + $arr[5];
 echo "Сумма 4го, 5го и 6го элементов: " . $sum . "<br>";
+
+
 
 foreach ($arr as $key => $value) {
     if ($key <= 3) {
@@ -17,6 +21,7 @@ foreach ($arr as $key => $value) {
 echo "Первые 4 элемента массива переместили в конец массива: " . "<br>";
 var_dump($arr);
 echo "<br>";
+
 
 $firstArr = [
     'one' => 1,
@@ -53,6 +58,7 @@ echo "<pre>";
     var_dump($result);
 echo "</pre>";
 
+
 $result1 = array_values($result1);
 $result2 = array_values($result2);
 $result = array_merge($result1, $result2);
@@ -60,6 +66,8 @@ echo "Все элементы, значения которых отличают�
 echo "<pre>";
     var_dump($result);
 echo "</pre>";
+
+
 
 $firstArr = [
     'one' => 1,
@@ -80,7 +88,7 @@ $firstArr = [
     ],
 ];
 
-// подсказали внутри цикла
+
 $result = [];
 foreach($firstArr as $row) {
     if (is_array($row)) {
@@ -93,6 +101,7 @@ echo "Все вторые элементы вложенных массивов: 
 
 echo "Oбщее количество элементов в массиве: ";
 echo (count($firstArr, mode: 1)) . "<br>";
+
 
 $resultArr = [];
 foreach ($firstArr as $row) {

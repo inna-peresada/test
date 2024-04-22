@@ -2,10 +2,12 @@
 
 namespace src\controllers;
 
+use src\core\Viewer;
+
 class Home
 {
     public function index()
     {
-        echo "Home";
+        Viewer::view('home', 'index');
     }
 }

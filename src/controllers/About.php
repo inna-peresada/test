@@ -2,10 +2,12 @@
 
 namespace src\controllers;
 
+use src\core\Viewer;
+
 class About
 {
     public function index()
     {
-        echo "About";
+        Viewer::view('about', 'index');
     }
 }

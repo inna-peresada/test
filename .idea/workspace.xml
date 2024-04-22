@@ -4,13 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22cda4b3-1f99-48fb-89cd-99e592f31a90" name="Changes" comment="" />
+    <list default="true" id="22cda4b3-1f99-48fb-89cd-99e592f31a90" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/config/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Viewer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/about/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/error/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/gallery/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/gallery/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/gallery/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/home/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/About.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/Error.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/Home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -30,19 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/PHP basic_24/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/PHP basic_24/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\test\src\view\gallery" />
+      <recent name="C:\xampp\htdocs\test\src\view\home" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +78,12 @@
       <option name="presentableId" value="Default" />
       <updated>1712859004723</updated>
       <workItem from="1712859006260" duration="392000" />
-      <workItem from="1712859624430" duration="694000" />
+      <workItem from="1712859624430" duration="2124000" />
+      <workItem from="1713004946589" duration="443000" />
+      <workItem from="1713194688596" duration="3511000" />
+      <workItem from="1713262006260" duration="2918000" />
+      <workItem from="1713517612451" duration="2244000" />
+      <workItem from="1713773028120" duration="11353000" />
     </task>
     <servers />
   </component>

@@ -2,10 +2,12 @@
 
 namespace src\controllers;
 
+use src\core\Viewer;
+
 class Error
 {
     public function index()
     {
-        echo "404 Not Found";
+        Viewer::view('error', 'index');
     }
 }
